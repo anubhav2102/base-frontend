@@ -1,0 +1,136 @@
+.uploadHeading{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.uploadCSVHeading{
+    margin-left: 2rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+.uploadsHeading{
+    margin-left: 5rem;
+    margin-top: 4rem;
+    font-size: 28px;
+}
+.imagesUploadTop{
+    margin-right: 1.5rem;
+}
+.buttonForUpload{
+                    width: 395px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: none;
+                    background: #605BFF;
+                    color: white;
+                    padding: 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+}
+.uploadCenter{
+    border: 0.5px dashed grey;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.uploadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60vh;
+}
+.uploadingDiv{
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+}
+.tableDiv{
+    height: 300px;
+    overflow: auto;
+    margin: 20px;
+    padding: 20px;
+}
+.tableDiv::-webkit-scrollbar {
+    width:0px;
+}
+
+.tableDiv::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(116, 114, 114, 0.3); 
+    border-radius: 10px;
+}
+
+.tableDiv::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(184, 183, 183, 0.5); 
+}
+.tableInnerDiv{
+    display: flex;
+    justify-content: center;
+    background: #F5F5F5;
+    margin: 10px;
+    padding: 20px;
+    margin-left: -10rem;
+}
+.colTr{
+    display: flex;
+    justify-content: space-between;
+    width: 144%;
+    align-items: center;
+    margin: 20px;
+    margin-top: 0px;
+    background: white;
+    padding: 13px;
+    border-radius: 10px;
+}
+.colTHead{
+    display: flex;
+    justify-content: space-around;
+    width: 158%;
+}
+#multiSelect{
+    height: 30px;
+    overflow: hidden;
+    padding: 6px;
+    width: 100px;
+    border: 1px solid #cdcdcd;
+    border-radius: 7px;
+}
+@media only screen and (max-width: 800px) {
+    .tableInnerDiv{
+        margin-left: 4rem;
+    }
+    .buttonForUpload{
+        width: 330px;
+    }
+    .uploadHeading{
+        margin-left: 0rem;
+    margin-top: 3rem;
+    font-size: 24px;
+    }
+    .uploadsHeading{
+        margin-left: 3rem;
+    }
+    .uploadingContainer{
+        height: 50vh;
+    }
+    .imagesUploadTop{
+        position: absolute;
+        right: -272%;
+        top: 28%;
+    }
+  }
+
+  @media only screen and (max-width: 400px){
+    .imagesUploadTop{
+        right: -232%;
+    }
+  }

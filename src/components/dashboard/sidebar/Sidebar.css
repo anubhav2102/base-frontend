@@ -1,0 +1,46 @@
+.burgerIcon{
+    display: none;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.closeIconSidebar{
+    display: none;
+}
+.topLeftBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.logoHeading{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.logoImageSidebar{
+    margin-top: 10px;
+    height: 36px;
+}
+.sidebarNav{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 30px;
+}
+@media only screen and (max-width: 800px) {
+    .topLeftBar{
+        position: absolute;
+    top: -1.56%;
+    left: 7%;
+    }
+    .sideNavBarMenu{
+        margin-left: 26px;
+    margin-top: 6rem;
+    }
+    .burgerIcon{
+        display: block;
+        margin-left: -2rem;    
+    }
+}

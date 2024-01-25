@@ -1,0 +1,25 @@
+.mainDiv{
+    display: flex;
+}
+.left_side_sidebar{
+    height: 142vh;
+    width: 15%;
+    background-color: white;
+}
+.right_side_upload{
+    height: 142vh;
+    width: 85%;
+    background-color: #fbfbfb;
+}
+
+@media only screen and (max-width: 800px) {
+    .mainDiv{
+        flex-direction: column;
+    }
+    .right_side_upload{
+        width: 100%;
+    }
+    .left_side_sidebar{
+        width: 100%;
+    }
+  }
